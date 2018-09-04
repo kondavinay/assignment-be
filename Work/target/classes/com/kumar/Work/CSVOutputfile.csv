@@ -1,0 +1,51 @@
+Record 
+Transaction Reference : 183049
+Description: Clothes for Jan King
+Record 
+Transaction Reference : 183356
+Description: Subscription for Peter de Vries
+Record 
+Transaction Reference : 112506
+Description: Tickets from Richard Bakker
+Record 
+Transaction Reference : 139524
+Description: Flowers from Jan Bakker
+Record 
+Transaction Reference : 141223
+Description: Clothes from Erik BakkertΩ
+
+failed records
+Record
+Transaction Reference : 194261
+Account Number : NL91RABO0315273637
+Description  : Clothes from Jan Bakker
+startBalance : 21.6
+EndBalance : -41.83
+End Balance : 20.23tø
+
+failed records
+Record
+Transaction Reference : 112806
+Account Number : NL27SNSB0917829871
+Description  : Clothes for Willem Dekker
+startBalance : 91.23
+EndBalance : 15.57
+End Balance : 106.8t¿
+
+failed records
+Record
+Transaction Reference : 179430
+Account Number : NL93ABNA0585619023
+Description  : Clothes for Vincent Bakker
+startBalance : 23.96
+EndBalance : 27.43
+End Balance : 54.47tæ
+
+failed records
+Record
+Transaction Reference : 195746
+Account Number : NL74ABNA0248990274
+Description  : Flowers for Willem Dekker
+startBalance : 26.32
+EndBalance : 48.98
+End Balance : 75.3

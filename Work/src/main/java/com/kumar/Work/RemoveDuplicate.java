@@ -13,10 +13,7 @@ public class RemoveDuplicate {
 
 	public static void method(ArrayList<String> f) throws IOException, ClassNotFoundException {
 
-		File file = new File("C:\\Users\\Vinay Konda\\Desktop\\New folder (3)\\1\\folder\\myOutput13.csv");
-		FileOutputStream fos = new FileOutputStream(file);
-		ObjectOutputStream oos = new ObjectOutputStream(fos);
-
+		
 		RemoveDuplicate red = new RemoveDuplicate();
 
 		System.out.println("\n\n");
@@ -52,9 +49,7 @@ public class RemoveDuplicate {
 
 				System.out.println("Description: " + value[2]);
 
-				 oos.writeChars("\nRecord \nTransaction Reference : " +
-				 value[0]+"\n"+"Description: " + value[2]);
-
+				 
 			} else if (bigDecimalCurrency3 != bigDecimalCurrency4) {
 
 				validFail.add("\nRecord\nTransaction Reference : " + value[0] + "\nAccount Number : " + value[1]
@@ -68,12 +63,11 @@ public class RemoveDuplicate {
 		for (String s1 : validFail) {
 
 			System.out.println("failed records" + s1);
-			oos.writeObject("\n\nfailed records" + s1);
+			
 
 		}
 
-		oos.close();
-		fos.close();
+		
 	}
 
 }
